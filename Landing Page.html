@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  
+  body {
+    background: linear-gradient(90deg, #FFCE78, #8B00BF, #CA9059, #D364FC, #DE9F63);
+    background-size: 200% 200%;
+    animation: gradient 15s ease-in-out infinite;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .animated-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Angkor', sans-serif;
+    text-align: center;
+    animation: fadeIn 5s ease-in-out infinite;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  .link {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+  }
+  .gradient-text {
+    background-image: linear-gradient(to right, #980C00, #EE7368);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 3s ease infinite;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0%;
+    }
+    50% {
+      background-position: 100%;
+    }
+    100% {
+      background-position: 0%;
+    }
+  }
+
+</style>
+
+</head>
+<body>
+  <div class="animated-text">Snehakshi WebCrafts</div>
+   <a href="C:\Users\SAHIL MHASKAR\Desktop\Webpage.html" class="link">Click Here</a>
+</body>
+</html>
